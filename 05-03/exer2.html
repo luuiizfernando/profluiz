@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Exercício 6</title>
+    </head>
+
+    <body>
+
+            <form method="get">
+                <fieldset>
+                    <legend>Dados do paciente</legend>
+                    Nome do paciente: <input type="text" name="nome"><br>
+                    Registro hospitalar: <input type="text" name="registro"><br>
+                    Data de inclusão: <input type="date" name="inclusão"><br>
+                    Data de nascimento: <input type="date" name="datanasc"><br>
+                    E-mail: <input type="email" name="email"><br>
+                    Gênero:<br>
+                    <label for="g1">
+                    <input type="radio" name="genero" value="1" id="g1">Feminino
+                    </label>
+                    <br>
+                    <label for="g2">
+                    <input type="radio" name="genero" value="2" id="g2">Masculino
+                    </label>
+                    <br>
+                    Raça declarada:<br>
+                    <select name="raca">
+                        <option value=""></option>
+                        <option value="1">Branca</option>
+                        <option value="2">Negro</option>
+                        <option value="3">Parda</option>
+                        <option value="4">Amarelo</option>
+                    </select>
+                    <br>
+                    Como ficou sabendo do estudo:<br>
+                    <label for="b1">
+                    <input type="checkbox" name="estudo" value="convidado" id="b1">Convidado
+                    </label>
+                    <br>
+                    <label for="b2">
+                    <input type="checkbox" name="estudo" value="internet" id="b2">internet
+                    </label>
+                    <br>
+                    <label for="b3">
+                    <input  type="checkbox" name="estudo" value="amigos" id="b3">amigos
+                    </label>
+                    <br>
+                    <label for="b4">
+                    <input type="checkbox" name="estudo" value="familiares" id="b4">familiares
+                    </label>
+                    <br>
+                    <label for="b5">
+                    <input type="checkbox" name="estudo" value="outros" id="b5">outros
+                    </label>
+                    <br>
+                    <button type="submit">Enviar</button>
+
+                </fieldset>
+
+            </form>
+
+    </body>
+
+
+</html>
